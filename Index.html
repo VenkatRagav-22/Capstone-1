@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capstone Project</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      span {
+        color: coral;
+      }
+      span:hover {
+        color: rgb(242, 89, 0) !important;
+      }
+      .nav-link {
+        color: coral !important;
+      }
+      .nav-link:hover {
+        color: rgb(242, 89, 0) !important;
+      }
+      .brand-name {
+        font-family: "Great Vibes", cursive;
+        font-size: 1.8rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Nav Bar Section -->
+    <div class="container">
+      <header
+        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
+      >
+        <a
+          href="./Index.html"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+        >
+          <img
+            src="./assets/Profile.jpeg"
+            height="40"
+            width="40"
+            style="object-fit: cover; border-radius: 50%; margin-right: 10px"
+            alt="Profile"
+          />
+          <span class="fs-4 brand-name">Venkat Ragav</span>
+        </a>
+        <ul class="nav nav-pills custom-nav">
+          <li class="nav-item">
+            <a
+              href="./Index.html"
+              class="nav-link d-flex align-items-center"
+              aria-current="page"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-house me-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"
+                />
+              </svg>
+              Home
+            </a>
+          </li>
+          <li class="nav-item">
+            <a
+              href="./Projects.html"
+              class="nav-link d-flex align-items-center"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-journal me-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"
+                />
+                <path
+                  d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"
+                />
+              </svg>
+              Projects
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html" class="nav-link d-flex align-items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                fill="currentColor"
+                class="bi bi-person-lines-fill me-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z"
+                />
+              </svg>
+              Contact
+            </a>
+          </li>
+        </ul>
+      </header>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="container">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img
+            src="./Assets/Hero.jpeg"
+            class="d-block mx-lg-auto img-fluid"
+            alt="Bootstrap Themes"
+            width="500"
+            height="300"
+            loading="lazy"
+            style="border-radius: 30%"
+          />
+        </div>
+        <div class="col-lg-6">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+            Hey, I’m Venkat Ragav
+            <hr />
+          </h1>
+          <p class="lead">
+            I’m a modern-day alchemist, chasing my personal legend one line of
+            code, one ride, and one system tweak at a time.
+            <br />
+            From the roar of engines to the quiet hum of a custom PC, I search
+            for meaning in machines — building, breaking, and rebuilding until
+            they feel like extensions of me.
+            <br />
+            Every bug, every mod, every midnight ROM flash is part of the
+            journey. Not to chase perfection, but to understand the language of
+            the world, told through circuits, scripts, and speed.
+            <br />
+            This space holds my tools, my tales, and the tech I shape along the
+            way.
+          </p>
+          <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+            <a href="./Projects.html" class="btn btn-dark btn-lg px-4 me-md-2">
+              Projects
+            </a>
+            <a href="./contact.html" class="btn btn-dark btn-lg px-4 me-md-2">
+              Let's Connect
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer
+      class="text-center py-4 mt-5"
+      style="background-color: rgb(252, 100, 45)"
+    >
+      <div class="container">
+        <p class="mb-1 fw-semibold text-muted" style="letter-spacing: 0.5px">
+          © Venkat Ragav<span style="font-size: 1.2rem">™</span>
+        </p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
